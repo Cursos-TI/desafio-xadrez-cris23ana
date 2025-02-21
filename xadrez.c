@@ -27,9 +27,19 @@ int main() {
         iR++;
     }
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+//Movimento do Cavalo (Estrutura de repetição usada: Estrutura aninhada com for e while)
+    int iC = 1;
+
+    while(iC <= 1){
+        printf("\n");
+        printf("Movimento do Cavalo:\n");
+        for(int jC = 1; jC <= 2; jC++)
+        {
+            printf("Baixo\n");
+        }
+        printf("Esquerda");
+        iC++;
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
